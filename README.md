@@ -16,3 +16,15 @@ Dictionaries - we gonna use this to store data
 Files - we gonna use this to access an external file just like the userlog.log
 Variables - we gonna use this to assigned certain variables to specify information
 Conditional statements - we gonna use this to have comparison between variables using operators
+
+
+# Switching regulat clock to military time
+The error we encounter was converting regular 24 hour time format into the military time format. The way we fixed it is tha we use the "if" function xif time >= "00:00:00" and time <= "05:00:00" and emailDict[email][day][time][0] == "login":
+
+# Irresposible behavior count
+We were getting invalid syntax error when we were writing the code for our irresponsible behavior because we didn't know if we have to use the print or if functions to do the count. The way we fixed it is that we were just missing the "return" functions to count the irresponsible behavior and that way our loop worked and runs the functions.
+
+# Glitch Behavior Report
+The glitch behavior report gave us a hard time because we didn't know what cause our code not run. We were missing a for loop for the time in mail. The way we fixed it is that we put: 
+for time in emailDict[email][day]: 
+  dayTimes.append(time).
